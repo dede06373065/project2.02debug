@@ -1,0 +1,24 @@
+body{
+    background-image: url(./asset/backimg1.jpeg);
+    background-repeat: repeat;
+}
+@media only screen and (max-width: 993px) {
+    .nav__bar__logo {
+      display: none;
+    }
+  
+    .nav__bar__more {
+      width: 45%;
+    }
+  
+    .content__top {
+      height: 420px;
+    }
+    .content__top__details {
+      width: 80%;
+      margin-top: 0;
+    }
+    .content__top__location {
+      width: 80%;
+    }
+  }

@@ -1,0 +1,124 @@
+.content__top, body {
+  background-size: 100%;
+}
+
+.content__top__location, .content__top__details .degree, .nav__bar__date {
+  margin-top: 10px;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: aliceblue;
+  text-align: center;
+}
+
+body {
+  background-image: url(../src/backimg1.jpeg);
+}
+
+.nav {
+  width: 100%;
+  background-color: #897cb3;
+  height: 90px;
+}
+.nav__bar {
+  display: flex;
+  justify-content: space-between;
+}
+.nav__bar li {
+  padding-top: 10px;
+}
+.nav__bar__logo {
+  width: 25%;
+  color: #89c548;
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+.nav__bar__logo img {
+  width: 60px;
+  height: 60px;
+}
+.nav__bar__date {
+  width: 50%;
+}
+.nav__bar__more {
+  width: 20%;
+  margin-top: 10px;
+  text-align: right;
+}
+
+.content {
+  margin: auto;
+  margin-top: 40px;
+  width: 85%;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px #c8c8c8;
+  background-color: aliceblue;
+}
+.content__top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-image: url(../src/lighthouse.jpeg);
+  border-radius: 5px 5px 0 0;
+  padding: 30px;
+}
+.content__top__details {
+  width: 45%;
+  margin-top: 50px;
+  border: 1px solid #c8c8c8;
+  border-radius: 3px;
+  box-shadow: 3px 3px 3px #c8c8c8;
+  text-align: center;
+  color: aliceblue;
+}
+.content__top__details .otherdetails {
+  display: flex;
+  justify-content: space-around;
+}
+.content__top__details .otherdetails li {
+  padding: 20px;
+}
+.content__top__location {
+  width: 40%;
+  font-size: 3.5rem;
+  color: red;
+}
+.content__top__location:hover {
+  color: #404aac;
+}
+.content__ground .row {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.content__ground .row .card {
+  border: 1px solid #c8c8c8;
+  border-radius: 5px;
+  margin: 15px;
+  text-align: center;
+  width: 150px;
+  margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 993px) {
+  .nav__bar__logo {
+    display: none;
+  }
+
+  .nav__bar__more {
+    width: 45%;
+  }
+
+  .content__top {
+    height: 420px;
+  }
+  .content__top__details {
+    width: 80%;
+    margin-top: 0;
+  }
+  .content__top__location {
+    width: 80%;
+  }
+}
+
+/*# sourceMappingURL=weather.css.map */

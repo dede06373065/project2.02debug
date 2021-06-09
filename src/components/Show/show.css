@@ -1,0 +1,56 @@
+.content {
+    margin: auto;
+    margin-top: 40px;
+    width: 85%;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #c8c8c8;
+    background-color: aliceblue;
+  }
+  .content__top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-image: url(../../asset/lighthouse.jpg);
+    background-size: 100%;
+    border-radius: 5px 5px 0 0;
+    padding: 30px;
+  }
+  .content__top__details {
+    padding:35px;
+    width: 350px;
+    margin-top: 50px;
+    border: 1px solid #c8c8c8;
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px #c8c8c8;
+    text-align: center;
+    color: aliceblue;
+    margin:30px;
+  }
+  .content__top__details:hover{
+    box-shadow: 3px 3px 3px lightblue;
+    border: 1px solid lightblue;
+  }
+  .degree{
+    font-size: 3rem;
+    font-weight: bolder;
+  }
+  .content__top__details .otherdetails {
+    display: flex;
+    width:300px;
+    justify-content: space-around;
+  }
+  .content__top__details .otherdetails li {
+    padding: 20px;
+    height:60px;
+  }
+  .content__top__location {
+    width: 40%;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    color: red;
+    text-align: center;
+    margin-top:30px;
+  }
+  .content__top__location:hover {
+    color: #404aac;
+  }
